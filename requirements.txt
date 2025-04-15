@@ -6,5 +6,8 @@ torch==2.2.0+cpu
 laspy==2.4.1
 plotly
 leafmap
-
+open3d
+pyvista
+panel
+ipygany
 
