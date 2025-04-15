@@ -1,24 +1,8 @@
-# Core
-streamlit>=1.30.0
+streamlit
 numpy
 scipy
-
-# PyTorch (CPU-only version recommended for Streamlit Cloud)
 torch==2.2.0+cpu
-torchaudio==2.2.0+cpu
-torchvision==0.17.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
-
-# LiDAR and 3D processing
 laspy==2.4.1
-open3d==0.18.0
-
-# Visualization
 plotly
-leafmap
-
-# Optional (for smoother visuals, if needed)
-pyvista
-ipygany
-panel
 
